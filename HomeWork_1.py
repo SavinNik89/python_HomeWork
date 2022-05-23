@@ -4,13 +4,11 @@
 
 quantity = int(input('Введите количество элементов последовательности: '))
 start_element = 1
-element = start_element
 sequence = [start_element]
-count = 0
+count = 1
 while count < quantity:
-    element = element*(-3)
-    sequence.append(element)
-    count = count+1
+    sequence.append((-3)**count)
+    count += 1
 print(sequence)
 
 #***********************************************************************************************************
@@ -51,6 +49,7 @@ if dot>0:
 if com>0:
     digits.remove(',')
 sum_list = [int(elem) for elem in digits]
+print(sum_list)
 print(f'Сумма цифр в числе: {sum(sum_list)}')
 
 #***************************************************************************************
