@@ -265,4 +265,4 @@ print(f'Максимальный простой делитель: {max_div}')
 
 print('Задача № 9 (5*)')
 
-print(math.factorial(10))
+
