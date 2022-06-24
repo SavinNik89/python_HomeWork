@@ -45,7 +45,7 @@ def take_input_player(player_token):
             else:
                 print ("Эта клетка уже занята")
         else:
-            print ("Некорректный ввод. Введите число от 1 до 9 чтобы походить.")
+            print ("Некорректный ввод. Введите число от 1 до 9_seminar чтобы походить.")
 
 
 def take_input_comp(player_token):
